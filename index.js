@@ -22,4 +22,9 @@ console.error(a+parseInt(c));
 
 SEL=100;
 SUCRE=80;
-console.error("nous avons du sel."+ SEL + ".nous avons du sucre"+ SUCRE);
+
+console.error(("nous avons du sel.") + SEL +("nous avons du sucre.") + SUCRE);
+TEMP= SEL;
+SEL=SUCRE;
+SUCRE=TEMP;
+console.error(("nous avons du sel.") + SEL +("nous avons du sucre.") + SUCRE);
