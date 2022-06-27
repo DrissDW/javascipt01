@@ -41,3 +41,7 @@ prix= prompt("quel est le prix de cet article?");
 console.info("l'article vaut"+ prix + "euros");
 prixttc= parseInt(prix)*1.2;
 console.info("l'article vaut"+ prixttc + "euros TTC");
+
+var date = new Date();
+var options = {weekday: "long", year: "numeric", month: "long", day: "2-digit"};
+alert(date.toLocaleDateString("fr-FR", options));
