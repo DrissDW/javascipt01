@@ -45,3 +45,10 @@ console.info("l'article vaut"+ prixttc + "euros TTC");
 var date = new Date();
 var options = {weekday: "long", year: "numeric", month: "long", day: "2-digit"};
 alert(date.toLocaleDateString("fr-FR", options));
+
+date= new Date();
+console.info(date);
+day= date.getDate();
+mois= date.getMonth()+1;
+annee= date.getFullYear();
+console.info(day+" "+ mois +" "+ annee );
