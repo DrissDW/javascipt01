@@ -27,7 +27,7 @@ else
 
 valeur=prompt(" veuillez entrer un nombre");
 valeur= parseInt(nombre);
-if(nombre>0){
+if(valeur>0){
     console.info(" le nombre est positif")
 
 }
